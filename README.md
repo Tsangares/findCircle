@@ -23,3 +23,9 @@ The function `intercept()` returns a tuple of the form `((x_a,y_a),duplicates)`,
 Where `(x_a,y_a)` is a tuple representing the intersection point, and `duplicates` is an integer representing the number of overlapping circles at that point.
 
 There is also the function `plotIntercept` that works the same way but will plot circles using `matplotlib`, you can define the boundaries of the figure by using the input parameter `xlim` and `ylim` which take in tuples of the form `(minValue,maxValue)` where `minValue` and `maxValue` are floats/doubles.
+
+# Example
+
+    from findCircle import findCircle
+    points=findCircle.intercept([(0,0,4),(8,0,4),(4,4,4)])
+    findCircle.plotIntercept([(0,0,4),(8,0,4),(4,4,4)],xlim=(-20,20),ylim=(-20,20))
