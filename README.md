@@ -2,16 +2,16 @@ Note this uses python3.
 
 # Setup
 To install the package use the following command in terminal:
-`pip install findCircle`
+```pip install findCircle```
 
 To import the package, put at the top of your python script:
-`from findCircle.findCircle import *`
+```from findCircle.findCircle import *```
 or
-`from findCircle.findCircle import intercept`
+```from findCircle.findCircle import intercept```
 
 # Quickstart
 Once imported you can use the following function:
-`intercept([(x_0,y_0,r_0),(x_1,y_1,r_1),(x_2,y_2,r_2)])`
+```intercept([(x_0,y_0,r_0),(x_1,y_1,r_1),(x_2,y_2,r_2)])```
 
 Where `(x_0,y_0,r_0)` is a tuple representing a circles, vertex and radius.
 
